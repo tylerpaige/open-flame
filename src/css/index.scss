@@ -1,0 +1,26 @@
+$faceWidth : (490 / 671) * 100vh;
+
+@import '~reset-css';
+@import 'typography';
+@import 'faces';
+@import 'instructions';
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+}
+body {
+  background: black;
+  color: white;
+}
+a,
+a:visited,
+a:link {
+  color: white;
+}

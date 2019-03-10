@@ -1,0 +1,47 @@
+.faces {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  user-select: none;
+  overflow: hidden;
+  z-index: 2;
+}
+.face {
+  position: absolute;
+  width: $faceWidth;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.face--left {
+  left: -1 * $faceWidth;
+  transform: translateX(-100%);
+  background-image: url('../img/20190227--left--black-bg--primary-colors.png');
+  background-position: right center;
+  z-index: 2;
+}
+.face--right-top,
+.face--right-bottom {
+  right: -1 * $faceWidth;
+  transform: translateX(100%);
+  background-position: left center;
+}
+.face--right-top {
+  background-image: url('../img/20190227--right--top--black-bg--primary-colors.png');
+  z-index: 3;
+}
+.face--right-bottom {
+  background-image: url('../img/20190227--right--bottom--black-bg--primary-colors.png');
+  z-index: 1;
+}
+
+html.touchevents {
+  .faces {
+    mix-blend-mode: normal;
+  }
+}
