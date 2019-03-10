@@ -21,7 +21,7 @@
 .face--left {
   left: -1 * $faceWidth;
   transform: translateX(-100%);
-  background-image: url('../img/20190227--left--black-bg--primary-colors.png');
+  background-image: url('../img/20190310--left--black-bg--primary-colors.png');
   background-position: right center;
   z-index: 2;
 }
@@ -32,11 +32,11 @@
   background-position: left center;
 }
 .face--right-top {
-  background-image: url('../img/20190227--right--top--black-bg--primary-colors.png');
+  background-image: url('../img/20190310--right--top--black-bg--primary-colors.png');
   z-index: 3;
 }
 .face--right-bottom {
-  background-image: url('../img/20190227--right--bottom--black-bg--primary-colors.png');
+  background-image: url('../img/20190310--right--bottom--black-bg--primary-colors.png');
   z-index: 1;
 }
 
