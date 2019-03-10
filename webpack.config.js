@@ -1,4 +1,5 @@
 const path = require('path');
+const fs = require('fs');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
@@ -71,7 +72,8 @@ module.exports = {
   plugins : [
     new HtmlWebpackPlugin({
       filename : 'index.html',
-      template : path.resolve(__dirname, 'src/templates/index.hbs')
+      template : path.resolve(__dirname, 'src/templates/index.hbs'),
+      data : JSON.parse(fs.readFileSync('./src/data/data.json'))
     }),
     new CopyWebpackPlugin([{
       from : 'src/img',
