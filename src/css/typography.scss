@@ -11,48 +11,48 @@ main {
   position: absolute;
   left: 50%;
   width: 100%;
-  max-width: 410px;
+  max-width: 25.625rem;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   box-sizing: border-box;
   z-index: 1;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 h1 img {
   width: 100%;
-  max-width: 260px;
+  max-width: 16.25rem;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.5em;
   letter-spacing: 0.1em;
-  margin-top: 1px;
+  margin-top: 0.05em;
   text-align: center;
-  max-width: 365px;
-  line-height: 25px;
-  margin-bottom: 11px;
+  max-width: 22.81rem;
+  line-height: 1.25;
+  margin-bottom: 0.55em;
   text-transform: uppercase;
-  padding-top: 9px;
+  padding-top: 0.45em;
 }
 
 main p {
   width: 100%;
-  max-width: 410px;
+  max-width: 25.625rem;
   margin-bottom: 1em;
   position: relative;
   
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.21;
   text-align: center;
   text-align-last: center;
@@ -69,18 +69,18 @@ a:link {
 .description-item {
   display: inline-block;
   width: auto;
-  padding: 7px 15px 8px;
+  padding: 0.4375rem 0.9375rem 0.5rem;
   margin-bottom: 0;
-  max-width: 375px;
+  max-width: 23.4375rem;
   font-family: $sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
 
   &:before {
     content: ':・:・🔥・:・:';
     display: block;
     filter: grayscale(1);
-    font-size: 12px;
-    margin-bottom: 12px;
+    font-size: 0.7rem;
+    margin-bottom: 1em;
   }
 }
 
@@ -92,12 +92,12 @@ footer {
 
 header {
   border-bottom: 2px solid #bababa;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 footer {
-  margin-top: 15px;
-  padding-top: 24px;
+  margin-top: 0.9375rem;
+  padding-top: 1.5rem;
   border-top: 2px solid #bababa;
   position: relative;
 
@@ -117,7 +117,7 @@ footer {
 }
 
 footer p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .legal-footer {
