@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     filename: 'script.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'docs')
   },
   mode: 'development',
   devtool: ' inline-source-map',
@@ -81,7 +81,7 @@ module.exports = {
     }])
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'docs'),
     compress: true,
     historyApiFallback: true
   }

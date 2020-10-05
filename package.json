@@ -31,8 +31,7 @@
     "dev": "webpack-dev-server",
     "build": "webpack",
     "build:production": "webpack --config webpack.prod.js",
-    "push-subtree": "git subtree push --prefix dist origin gh-pages",
-    "deploy": "npm run build:production && git commit -am 'Production build' && npm run push-subtree && git push origin master"
+    "deploy": "npm run build:production && git commit -am 'Production build' && git push origin master"
   },
   "repository": {
     "type": "git",
