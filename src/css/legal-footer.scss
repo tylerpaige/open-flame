@@ -1,0 +1,12 @@
+.legal-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 0 85px 10px 10px;
+  text-align: left;
+}
+
+html:not(.touchevents) .legal-footer {
+  padding-right: 10px;
+  text-align: center;
+}
